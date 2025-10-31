@@ -10,7 +10,7 @@ export default function HeroSection({ scrollToSection }: HeroSectionProps) {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url('https://cdn.poehali.dev/projects/530d18c9-4326-4871-8a3f-90d693be60ca/files/edaf59db-04f7-4723-8393-a80085e4700f.jpg')` }}
+        style={{ backgroundImage: `url('https://static.tildacdn.com/tild6330-6163-4862-a234-376333386261/ac6f5219-bbea-4ba2-9.jpg')` }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-background"></div>
       </div>

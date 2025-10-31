@@ -2,13 +2,13 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const gallery = [
   {
-    url: 'https://cdn.poehali.dev/projects/530d18c9-4326-4871-8a3f-90d693be60ca/files/7f0780ad-edd2-4228-8bc6-555433ad2b7e.jpg',
-    title: 'Олени с величественными рогами',
+    url: 'https://static.tildacdn.com/tild6330-6163-4862-a234-376333386261/ac6f5219-bbea-4ba2-9.jpg',
+    title: 'Природа Аркуды',
     description: 'Встречайте утро в компании благородных оленей'
   },
   {
-    url: 'https://cdn.poehali.dev/projects/530d18c9-4326-4871-8a3f-90d693be60ca/files/2a01a5af-ce49-4fa5-aa1d-c2b4c4dbcda8.jpg',
-    title: 'Медведи в естественной среде',
+    url: 'https://static.tildacdn.com/tild3834-3239-4532-b062-333436636662/ac6f5219-bbea-4ba2-9.jpg',
+    title: 'Территория фермы',
     description: 'Наблюдайте за дикой природой в безопасности'
   },
   {

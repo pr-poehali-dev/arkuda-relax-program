@@ -13,7 +13,7 @@ export default function AccommodationSection() {
         
         <div className="grid md:grid-cols-2 gap-12">
           <Card className="overflow-hidden border-border/50 hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 bg-cover bg-center" style={{ backgroundImage: `url('https://cdn.poehali.dev/projects/530d18c9-4326-4871-8a3f-90d693be60ca/files/6deabacd-7aa8-494e-b13e-8f728996534d.jpg')` }}></div>
+            <div className="h-64 bg-cover bg-center" style={{ backgroundImage: `url('https://static.tildacdn.com/tild6330-6163-4862-a234-376333386261/ac6f5219-bbea-4ba2-9.jpg')` }}></div>
             <CardContent className="p-8">
               <h3 className="text-3xl font-semibold mb-4 text-foreground">Домик-уединение</h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -23,7 +23,7 @@ export default function AccommodationSection() {
           </Card>
 
           <Card className="overflow-hidden border-border/50 hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 bg-cover bg-center" style={{ backgroundImage: `url('https://cdn.poehali.dev/projects/530d18c9-4326-4871-8a3f-90d693be60ca/files/6deabacd-7aa8-494e-b13e-8f728996534d.jpg')` }}></div>
+            <div className="h-64 bg-cover bg-center" style={{ backgroundImage: `url('https://static.tildacdn.com/tild3834-3239-4532-b062-333436636662/ac6f5219-bbea-4ba2-9.jpg')` }}></div>
             <CardContent className="p-8">
               <h3 className="text-3xl font-semibold mb-4 text-foreground">Апартаменты с видом на озеро</h3>
               <p className="text-muted-foreground leading-relaxed">
