@@ -1,0 +1,39 @@
+import { Button } from '@/components/ui/button';
+import Icon from '@/components/ui/icon';
+
+interface HeroSectionProps {
+  scrollToSection: (id: string) => void;
+}
+
+export default function HeroSection({ scrollToSection }: HeroSectionProps) {
+  return (
+    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url('https://cdn.poehali.dev/projects/530d18c9-4326-4871-8a3f-90d693be60ca/files/edaf59db-04f7-4723-8393-a80085e4700f.jpg')` }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-background"></div>
+      </div>
+      
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in">
+        <h1 className="text-5xl md:text-7xl font-light text-white mb-6 tracking-wide">
+          Перезагрузка в Аркуде
+        </h1>
+        <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">
+          Ваше путешествие к гармонии начинается здесь
+        </p>
+        <Button 
+          size="lg" 
+          className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg rounded-full transition-all hover:scale-105"
+          onClick={() => scrollToSection('booking')}
+        >
+          Начать путешествие
+        </Button>
+      </div>
+
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <Icon name="ChevronDown" size={32} className="text-white/60" />
+      </div>
+    </section>
+  );
+}
